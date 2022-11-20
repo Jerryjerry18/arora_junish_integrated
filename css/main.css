@@ -229,7 +229,7 @@ you work on and the intended audience */
 }
 
 #about-con {
-	background-color: #ddd;
+	background-color: rgb(114, 114, 114);
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -273,7 +273,7 @@ you work on and the intended audience */
 /*Common page elements  */
 
 #footer-con {
-	background-color: #fdfdfd;
+	background-color: grey;
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
