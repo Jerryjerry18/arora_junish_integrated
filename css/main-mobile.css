@@ -64,6 +64,8 @@ you work on and the intended audience, we may go as low as 320px */
 	grid-column-gap: 16px;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-size: 20px;
+	color: white;
 }
 
 #header-con {
@@ -91,7 +93,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 #hero-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background: url(../images/hm_hero_img\ copy.png);
 	height: 458px;
 }
 
@@ -133,16 +135,29 @@ you work on and the intended audience, we may go as low as 320px */
 	top: 200px;
 }
 
+header nav ul li span a{
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+header nav ul li span{
+	font-size: 12px;
+	display: inline;
+	margin-top: 10px;
+}
+
 #about-us-con h2 {
 	background-color: #ffffff;
 	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	margin: 0;
+	font-size: 20px;
 }
 
 #about-us-text-con {
 	background-color: #dddddd;
+
 }
 
 #about-us-text {
@@ -151,6 +166,8 @@ you work on and the intended audience, we may go as low as 320px */
 	height: 580px;
 	margin-top: 70px;
 	margin-bottom: 40px;
+	font-size: 27px;
+	color: black;
 }
 
 .about-us-photo {
@@ -169,6 +186,9 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height: 350px;
 	margin-bottom: 150px;
+	color: black;
+	font-size: 26px;
+	font-weight: bold;
 }
 
 #contact-form {
@@ -181,7 +201,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 #footer-con {
 	height: 410px;
-	background-color: #aaa;
+	background-color: rgb(157, 157, 157);
 }
 
 #footer-box {
@@ -189,7 +209,7 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height:45px;
 	grid-column: 1/3;
-	background-color: #ddd;
+	background-color: rgb(58, 58, 58);
 }
 
 #footer-newsletter {
@@ -197,7 +217,7 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height:100px;
 	grid-column: 1/-1;
-	background-color: #ddd;
+	background-color: rgb(122, 122, 122);
 }
 
 /* gallery page */
