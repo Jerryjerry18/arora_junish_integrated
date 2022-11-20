@@ -45,7 +45,7 @@ img {
 #main-nav ul li {
     display: inline;
     margin-right: 28px;
-	padding: 80px;
+
 }
 
 #main-nav ul li:last-child {
@@ -54,12 +54,16 @@ img {
 
 #main-nav ul li a {
     color: #626262;
-	font-size: 17px;
-	letter-spacing:2px;
+	font-size: 19px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+
 }
 
 #main-nav ul li a:hover {
-    border-bottom: 3px solid #9a2018;
+    border-bottom: 2px solid #9a2018;
     padding-bottom: 8px;
 }
 
@@ -90,7 +94,8 @@ a {
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
-	background-color: grey;
+	background-color: white;
+	color: black;
 }
 
 /* Remove underlines from links */
@@ -140,6 +145,13 @@ you work on and the intended audience */
 	padding-left: 140px;
 	padding-right: 140px;
 	font-size: 34px;
+	background-color: #fff;
+	color: #000;
+}
+
+.middle{
+	background-color: #fff;
+	color: black;
 }
 
 #header-con {
@@ -224,6 +236,9 @@ you work on and the intended audience */
 
 #about-title {
 	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	
 }
 
 #about-text {
@@ -258,7 +273,7 @@ you work on and the intended audience */
 /*Common page elements  */
 
 #footer-con {
-	background-color: #aaaaaa;
+	background-color: #fdfdfd;
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
@@ -299,7 +314,7 @@ you work on and the intended audience */
 /* gallery page */
 
 #gallery-hero-con {
-	background-color: #aaaaaa;
+	background-color: #fffefe;
 	background: url("https://via.placeholder.com/1920x580");
 	height: 580px;
 }
@@ -338,4 +353,10 @@ you work on and the intended audience */
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
+}
+
+
+
+#button1 {
+	margin: 90px;
 }
