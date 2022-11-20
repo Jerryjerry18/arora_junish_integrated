@@ -22,20 +22,95 @@ div,p,body,header,footer,section,article,nav {
 img { 
 	border: none; /*Remove border if image is a link*/
 	margin: 0; 
-	padding: 0; 
+	padding: 0;
 }
 
+
+
+#main-nav {
+    grid-column: 4/11;
+    border-left: solid 2px #626262;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+#main-nav ul li {
+    display: inline;
+    margin-right: 28px;
+	padding: 80px;
+}
+
+#main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+#main-nav ul li a {
+    color: #626262;
+	font-size: 17px;
+	letter-spacing:2px;
+}
+
+#main-nav ul li a:hover {
+    border-bottom: 3px solid #9a2018;
+    padding-bottom: 8px;
+}
+
+.log-in {
+    background-color: grey;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log-in-top {
+    grid-column: 11/-1;
+    margin-right: -15px;
+    margin-bottom: -1px;
+}
+
+#log-in-top:hover {
+    background-color:black;
+}
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
 /*html selectors*/
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
+	background-color: grey;
 }
 
 /* Remove underlines from links */
 
 a {
 	text-decoration: none;
+}
+
+.butt{
+	border: 1px;
+	background-color: black;
+	height: 80px;
+	width: 200px;
+	cursor: pointer;
+	color: white;
+}
+
+.butt:hover{
+	background-color: rgb(229, 229, 229);
+	color:black;
 }
 
 /*hide elements from browser but show for doc outline*/
@@ -64,6 +139,7 @@ you work on and the intended audience */
 	grid-column-gap: 16px;
 	padding-left: 140px;
 	padding-right: 140px;
+	font-size: 34px;
 }
 
 #header-con {
