@@ -76,6 +76,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 #header-logo {
 	grid-column: 1/3;
+	font-size: 15px;
 }
 
 #mobile-nav {
@@ -224,8 +225,10 @@ header nav ul li span{
 
 #hero-gallery-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background: url(../images/background_hero_img_int.jpeg);
 	height: 458px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #hero-gallery-text {
@@ -233,6 +236,7 @@ header nav ul li span{
 	/* Remove as content will dictate height */
 	height: 350px;
 	margin-top: 20px;
+
 }
 
 #gallery-controls {
@@ -249,13 +253,14 @@ header nav ul li span{
 	width: 30px;
 	border-radius: 50%;
 	margin: 5px;
-  }
+}
 
 #gallery h2 {
 	text-align: center;
 	grid-column: 1/-1;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	color: black;
 }
 
 .gallery-box {
@@ -264,6 +269,8 @@ header nav ul li span{
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
+	color: black;
+	font-size: 30px;
 }
 
 #footer-newsletter2 {

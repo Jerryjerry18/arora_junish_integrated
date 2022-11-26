@@ -315,7 +315,9 @@ you work on and the intended audience */
 
 #gallery-hero-con {
 	background-color: #fffefe;
-	background: url("https://via.placeholder.com/1920x580");
+	background: url(../images/background_hero_img_int.jpeg);
+	background-repeat: no-repeat;
+	
 	height: 580px;
 }
 
