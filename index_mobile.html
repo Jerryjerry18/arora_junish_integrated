@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>DYNAMIC AUTO SALES MOBILE</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
-	<div id="container">
+	<section id="container">
         
         <header id="header-con">
             <div id="main-header" class="grid-con">
@@ -17,8 +17,8 @@
                     <ul>
                         <li>
                             <span class="burger"> <a href="gallery_mobile.html">HOME</a></span>
-                            <span class="burger">CARS</span>
-                            <span class="burger">SIGN IN</span>
+                            <span class="burger"></span>
+                            <span class="burger"></span>
                         </li>
                     </ul>
 
@@ -28,7 +28,7 @@
         </header> 
 
         <main>
-            <div id="hero-con">
+            <section id="hero-con">
                 <div class="grid-con">
                     <div id="hero-text" >
                         <h2>
@@ -40,7 +40,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <div id="image-slider-con">
                 <h2>Quality you can count on</h2>
@@ -71,7 +71,7 @@
                     </div>         
             </div>
 
-            <div id="contact-us-con">
+            <section id="contact-us-con">
                 <div class="grid-con">
                     <div id="contact-text">
                         <h4>
@@ -81,23 +81,34 @@
                             Tell us about your car below and our team will be in touch within 60 minutes during regular business hours. We recommend you provide as much information about your vehicle as you can for an accurate appraisal.*
                         </p>
                     </div>
-                    <div id="contact-form" class="box-color">
+                    <div id="contact-form" >
+                        <section id="contact-form">
+                            <section id="contact-form-fields-bottom">
+                                <h3 class="hidden">Contact Us Form</h3>
+                                <form action="email.php" method="POST" enctype="text/plain">
+                                    <input name="fullName" type="text" placeholder="First & Last Name">
+                                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                                    <input name="submit" type="submit" value="Send">
+                                </form>
+                            </section>
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con">
                 <div id="footer-box">
-                    <p>SUBSCRIBE-US</p>
+                    <img src="images/MAIN_LOGO.png" alt="logo is impotant in footer" height="90px" width="200px">
                 </div>
-                <div id="footer-newsletter">
-                    <p>E-mail address</p>
+                <div id="footer-newsletter" class="footer-box">
+                    <input name="Email address" type="text11" required placeholder="Enter your Email">
+                    <button>Stay Connected </button>
                 </div>
             </div>
-        </div>
+        </footer>
 
-    </div>
+    </section>
 </body>
 </html>

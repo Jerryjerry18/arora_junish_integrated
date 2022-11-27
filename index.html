@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>DYNAMIC AUTO SALES</title>
 <link href="css/main.css" rel="stylesheet">
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
-	<div id="container">
+	<section id="container">
         
-        <div id="header-con">
+        <section id="header-con">
             <header id="main-header" class="grid-con">
-                <div id="header-box1">
+                <section id="header-box1">
                     <h1 class="hidden">DYNAMIC AUTO SALES</h1>
                     <img src="images/MAIN_LOGO.png" alt="main_index_logo" width="240" height="82">
-                </div>
-                <nav id="main-nav">
+                </section>
+                <section id="main-nav">
                     <ul>
                         <li>
                             <a href="gallery.html">HOME</a>
@@ -27,15 +27,15 @@
 
                         </li>
                     </ul>
-                </nav>
-                <div id="header-box2">
+                </section>
+                <section id="header-box2">
                     <a class="log-in" id="log-in-top" href="#"><h3>LOGIN/SIGN UP</h3></a>
-                </div>
+            </section>
             </header>
-        </div> 
+        </section>
 
         <main>
-            <div class="grid-con" id="hero">
+            <section class="grid-con" id="hero">
                 <div id="hero-text">
                     <h2>
                         Dynamic auto made easy
@@ -46,38 +46,38 @@
                 </div>
                 <img src="images/hm_hero_img copy.png" alt="hero-image" id="hero-image">
                 <button class="butt" id="butt">SHOP CARS</button>
-            </div>
+            </section>
 
-            <div class="grid-con" id="products">
+            <section class="grid-con" id="products">
                 <h2>Quality you can count on</h2>
                 <div class="product-box" id="product1">
                     <img src="images/hm_black_audi_r1c1 copy.png" alt="r1c1_image">
-                    <p>Name</p>
-                    <p>Model</p>
-                    <p>Year</p>
-                    <p>Miles Driven</p>
-                    <p>Owners</p>
-                </div>
+                    <p>Name - Audi</p>
+                    <p>Model - A4</p>
+                    <p>Year - 2022</p>
+                    <p>Miles Driven - 25000km</p>
+                    <p>Owners - Single</p>
+                </div> 
                 <div class="product-box" id="product2">
                     <img src="images/hm_black_bmw_r1c2 copy.png" alt="r1c2_image">
-                    <p>Name</p>
-                    <p>Model</p>
-                    <p>Year</p>
-                    <p>Miles Driven</p>
-                    <p>Owners</p>
+                    <p>Name - BMW</p>
+                    <p>Model - X3</p>
+                    <p>Year - 2021</p>
+                    <p>Miles Driven - 30000km</p>
+                    <p>Owners - Second</p>
                 </div>
                 <div class="product-box" id="product3">
                     <img src="images/hm_black_bmw copy.png" alt="r1_c3_image">
-                    <p>Name</p>
-                    <p>Model</p>
-                    <p>Year</p>
-                    <p>Miles Driven</p>
-                    <p>Owners</p>
+                    <p>Name - BMW</p>
+                    <p>Model - M2</p>
+                    <p>Year - 2021</p>
+                    <p>Miles Driven - 29000</p>
+                    <p>Owners - Single</p>
                 </div>
-            </div>
+            </section>
 
             <h2 id="about-title">Want to learn more about certain models?</h2>
-            <div id="about-con">
+            <section id="about-con">
                 <div class="grid-con" id="about">
                     <div id="about-text">
                         <h3>
@@ -92,7 +92,7 @@
                     </div>
                     <img src="images/all_four_index.png" alt="image"  id="about-image">
                 </div>
-            </div>
+            </section>
 
             <section>
             <div class="grid-con" id="contact">
@@ -104,32 +104,58 @@
                         Tell us about your car below and our team will be in touch within 60 minutes during regular business hours. We recommend you provide as much information about your vehicle as you can for an accurate appraisal.
                     </p>
                 </div>
-                <div id="contact-form" class="box-color">
-                </div>
+                <section id="contact-form">
+                    <section id="contact-form-fields-right">
+                        <h3 class="hidden">Contact Us Form</h3>
+                        <form action="email.php" method="POST" enctype="text/plain">
+                            <input name="fullName" type="text" placeholder="First & Last Name">
+                            <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                            <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                            <input name="submit" type="submit" value="Send">
+                        </form>
+                    </section>
+    
+                </section>
+    
+                </section>
             </div>
             </section>
         </main>
 
-        <div id="footer-con">
+        <section id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
-                    <p>SUBSCRIBE </p>
+                <div id="footer-logo">
+                    <img src="images/MAIN_LOGO.png" alt="header_logo_important" height="120px" width="240px">
                 </div>
-                <div id="footer-nav" class="box-color">
-                    Subscribe Us! for hot-listed deals and recent message updates
+                <div id="footer-nav">
+                    <section id="footer-nav">
+                        <ul>
+                            <li>
+                                <a href="gallery.html">HOME</a>
+                                <a href="#">OUR TEAM</a>
+                                <a href="#">USED CARS</a>
+                                <a href="#">NEW CARS</a>
+                                <a href="#">FIND A DEALER</a>
+                                <a href="#">RESEARCH & REVIEW</a>
+    
+                            </li>
+                            <button class="footer-button">Log In/Sign Up </button>
+                        </ul>
+                    </section>
+                   
                 </div>
-                <div id="footer-newsletter1" class="box-color">
-                    E-mail address
+                <div id="footer-newsletter1" class="footer-box">
+                    <input name="Email address" type="text11" required placeholder="Enter your Email">
+                    <button>Stay Connected </button>
+
                 </div>
-                <div id="footer-newsletter2" class="box-color">
-                    Sign up/Sign in
-                </div>
-                <div id="footer-social" class="box-color">
-                    News/Updates
+
+                <div id="footer-social">
+                <img src="images/get_socials.png" alt="social handles" height="70" width="250">
                 </div>
             </div>
-        </div>
+        </section>
 
-    </div> 
+    </section> 
 </body>
 </html>
